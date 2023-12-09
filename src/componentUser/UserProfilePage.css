@@ -1,0 +1,83 @@
+.Container {
+    text-align: center;
+    height: 100vh;
+  }
+  
+  h3 {
+    margin-top: 10px;
+    color: #333;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+.Container {
+    text-align: center;
+  }
+  
+  .SearchContainer {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .SearchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .SearchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .SearchButton:hover {
+    background-color: #2980b9;
+    border: 1px solid #2980b9;
+  }
+  
+  .EmployeeBox {
+    display: inline-block;
+    width: 250px;
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ecf0f1;
+    text-align: left;
+    margin-top: 100px;
+  }
+  
+  .EmployeeInfo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .EmployeeInfo li {
+    margin-bottom: 8px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+@media (min-width: 768px) {
+    .SearchContainer {
+      flex-direction: row;
+    }
+  
+    .SearchButton {
+      margin-left: 10px;
+    }
+}
+
+
+

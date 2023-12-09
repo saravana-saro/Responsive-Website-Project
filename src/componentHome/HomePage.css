@@ -1,0 +1,55 @@
+.Container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+}
+
+.search {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    margin-top: 140px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px 0;
+   margin-top: 15px;
+}
+
+/* Media Query for Android devices */
+@media only screen and (max-width: 767px) {
+    input {
+        width: 80%;
+    }
+}
+
+/* Media Query for iOS (iPhone) devices */
+@media only screen and (max-width: 375px) {
+    input {
+        width: 100%;
+    }
+}
+
+/* Center the content vertically and horizontally */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
